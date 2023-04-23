@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .kongu-engineers {
+      font-weight: bold;
+      color: #333;
+      font-size: 20px;
+      text-align: center;
+    }
+    
+    .status {
+      font-weight: normal;
+      color: #555;
+      font-size: 18px;
+      text-align: center;
+    }
+  </style>
+  <title>Document</title>
+</head>
+<body>
+  <div class="kongu-engineers">Kongu Engineers</div>
+  <div class="status">College</div>
+  
+  <script>
+    const status = document.querySelector('.status');
+    let statusText = ['College', 'Connecting...','Connected :)','Connect'];
+    let count = 0;
+    
+    setInterval(function() {
+      if (count===4) {
+        clearInterval(this);
+        return;
+      }
+      status.textContent = statusText[count % statusText.length];
+      count++;
+    }, 1000);
+  </script>
+</body>
+</html>
