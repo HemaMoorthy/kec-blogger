@@ -1,1 +1,2 @@
 # kec-blogger
+The KEC Blogger is a platform for members of the KEC to share their thoughts, experiences, and insights with others. The blog provides a space for students of our college to connect and engage with each other on a variety of topics, ranging from personal interests to local events and news. Whether you're a seasoned blogger or new to the world of online writing, the KEC Blogger welcomes contributions from all members of the community and provides a supportive and inclusive environment for creative expression.
